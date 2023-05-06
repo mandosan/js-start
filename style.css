@@ -1,0 +1,52 @@
+html body {
+    width: auto;
+    height: auto;
+    background-color: rgb(79, 5, 239);
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614424770_12-p-fon-temnii-kosmos-16.jpg);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+h1 {
+    color: rgb(231, 237, 230);
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px rgb(240, 141, 141);
+}
+
+.divlist {
+    width: 100%;
+    text-align: center;
+}
+
+.list {
+    display: inline-block;
+    font-size: 25px;
+    padding: 0;
+}
+
+li {
+    margin: 15px;
+    text-align: left;
+}
+
+li a {
+    text-decoration: dotted;
+    color: rgb(255, 254, 254);
+}
+
+li a:hover {
+    color: rgb(140, 255, 0);
+    text-shadow: 5px 5px 5px rgb(35, 123, 3);
+}
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: none;
+}
